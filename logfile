@@ -1,0 +1,21 @@
+2021-06-05 08:16:11.363 KST [61499] LOG:  starting PostgreSQL 13.3 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.28), 64-bit
+2021-06-05 08:16:11.364 KST [61499] LOG:  listening on IPv6 address "::1", port 5432
+2021-06-05 08:16:11.364 KST [61499] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-06-05 08:16:11.371 KST [61499] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-06-05 08:16:11.374 KST [61500] LOG:  database system was shut down at 2021-06-05 08:15:44 KST
+2021-06-05 08:16:11.376 KST [61499] LOG:  database system is ready to accept connections
+2021-06-05 08:20:43.534 KST [61841] ERROR:  syntax error at or near "create" at character 53
+2021-06-05 08:20:43.534 KST [61841] STATEMENT:  create user djangouser with login password 'secret'
+	create user djangouser with login password 'secret';
+2021-06-05 08:22:08.425 KST [61841] ERROR:  syntax error at or near "alter" at character 32
+2021-06-05 08:22:08.425 KST [61841] STATEMENT:  alter role djangouser createdb
+	alter role djangouser createdb;
+2021-06-05 08:23:50.693 KST [62222] FATAL:  database "suhongdb" does not exist
+2021-06-05 08:23:53.261 KST [62233] FATAL:  database "suhongdb" does not exist
+2021-06-05 08:24:06.926 KST [62249] FATAL:  database "suhongdb" does not exist
+2021-06-05 08:24:17.246 KST [62293] FATAL:  database "suhongdb" does not exist
+2021-06-05 08:24:19.604 KST [62346] FATAL:  database "suhongdb" does not exist
+2021-06-05 09:38:07.624 KST [61499] LOG:  received smart shutdown request
+2021-06-05 09:38:07.625 KST [61499] LOG:  background worker "logical replication launcher" (PID 61506) exited with exit code 1
+2021-06-05 09:38:07.625 KST [61501] LOG:  shutting down
+2021-06-05 09:38:07.645 KST [61499] LOG:  database system is shut down
